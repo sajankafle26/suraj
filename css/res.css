@@ -1,0 +1,9 @@
+@media(max-width: 500px)
+{
+    .container{ padding:0 15px;}
+    header .grid { grid-template-columns: auto;}
+    .navmobile{ display: block;}
+    nav ul{ display: none;}
+    .grid3, .block1-inner-grid1, .grid-down, .block2-grid
+    , .block-4, .block1-grid{ grid-template-columns: auto;}
+}

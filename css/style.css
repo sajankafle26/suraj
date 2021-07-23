@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+}
+img 
+{
+    display: block;
+    width: 100%;
+}
+.top 
+{
+    background: #353844;
+    padding: 0px 0;
+}
+.grid 
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.container 
+{
+    max-width: 1281px;
+    margin: auto;
+}
+ul 
+{
+    list-style-type: none;
+}
+a 
+{
+    text-decoration: none;
+}
+.top-left ul li 
+{
+    display: inline;
+}
+.top-left ul li a 
+{
+    color: #fff;
+    padding-right: 10px;
+}
+.top-right input 
+{
+    width: 140px;
+    height: 43px;
+    background: #000;
+    border: 0;
+    padding-left: 10px;
+     
+}
+ul li:first-child 
+{
+    padding-left: 0;
+}
+::placeholder
+{
+    color: #ccc;
+}
+.top-right button
+{
+    background: rgb(80, 89, 108);
+    padding:21px ;
+    border: none;
+}
+
+header
+{
+    background: linear-gradient(rgba(40, 41, 133, 0.5),rgba(56, 57, 107,0.6)), url(../img/top.jpg);
+    padding: 20px 0;
+    background-position: center;
+}
+.topads
+{
+    max-width: 720px;
+}
+.logo  a
+{
+    color: #fff;
+}
+nav 
+{
+    background: #7635ff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+nav ul li
+{
+     display: inline-block;
+     padding: 15px 20px;
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+}
+.bar, .bar1, .bar2
+{
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    margin: 4px;
+}
+.navmobile
+{
+    height: 44px;
+    display: none;
+    padding-top: 10px;
+}
+.breakingnews
+{
+    margin: 25px 0;
+}
+.border 
+{
+    border: 1px solid rgb(0 0 0 / 5%);
+    padding: 5px;
+}
+.grid3
+{
+    display: grid;
+    grid-template-columns: auto 400px 400px;
+    grid-gap:20px
+}
+.bbox img 
+{
+    width: 80px;
+    padding-right: 20px;
+    border-radius: 5px;
+   
+}
+.bbox
+{
+    padding: 0px 10px 0 0;
+}
+.box-item
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+.box-content
+{
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5));
+    left: 0;
+    padding: 20px 20px 30px 20px;
+    bottom: 0;
+    color: #fff;
+}
+.box-item img 
+{
+    height: 100%;
+    height: 260px;
+}
+.long img 
+{
+    height: 540px;
+    object-fit: cover;
+}
+.section-heading
+{
+    font-size: 15px;
+    position: relative;
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid #00000021;
+    padding-bottom: 5px;
+}
+.section-heading:after 
+{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    left: 0;
+    display: inline-block;
+    background: #333;
+    bottom: -1px;
+}
+ 
+.block1-grid
+{
+  display: grid;
+  grid-template-columns: 73% 25%;
+  justify-content: space-between;
+    
+}
+.cat 
+{
+    color: #6249ed;
+    
+}
+date 
+{
+    color: #aaa;
+    padding: 15px 0;
+    display: block;
+}
+.block1-inner-grid
+{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between; 
+}
+.block1-inner-grid1
+{
+    display: grid;
+    grid-template-columns: 48% 50%;
+    justify-content: space-between; 
+}
+.grid-down
+{
+    grid-gap: 10px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 48% 48%;
+}
+.sliderthree 
+{
+    background: #ECFBFF;
+    padding: 30px;
+    margin-top: 30px;
+}
+.sb 
+{
+    width: 90%;
+    background: #fff;
+}
+.sb h4, .sb date
+{
+    padding: 3px 10px;
+}
+.block2
+{
+    padding: 50px 0;
+}
+.block2-grid
+{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: space-between;
+
+}
+footer 
+{
+    background: #ECECEC;
+    padding: 50px 0;
+}
+.block-4
+{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 24% 24% 24% 24%;
+}
+footer .bbox
+{
+    margin-bottom: 20px;
+}
+footer h3 
+{
+    font-size: 15px;
+}
+.copyright
+{
+    padding: 15px;
+    text-align: center;
+}
+.owl-pagination
+{
+    position: absolute;
+    right:0;
+    bottom: -10px;
+}
+.owl-page {
+  width: 10px;
+  height: 10px;
+  background: #999;
+  display: inline-block;
+  margin: 2px;
+}
+.smallbox
+{
+  height: 350px;
+  background: #6249ed;
+  width: 100%;
+  position: sticky;
+  top: 100px;
+}
